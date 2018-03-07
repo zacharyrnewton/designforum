@@ -1,8 +1,11 @@
-<!--<script type="text/javascript">
-  var host = "designforum.us";
-  if ((host == window.location.host) && (window.location.protocol != "https:"))
-    window.location.protocol = "https";
-</script>-->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-76141154-4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-76141154-4');
+</script>
 <meta charset="utf-8" />
 <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -13,8 +16,8 @@
 <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/styles.css" />
 <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-<meta property="og:title" content="Design Forum" />
-<meta name="twitter:title" content="Design Forum" />
+<meta property="og:title" content="{{ site.title }}" />
+<meta name="twitter:title" content="{{ site.title }}" />
 <meta property="og:image" content="{{ site.baseurl }}/assets/img/ogImage.png" />
 <meta name="twitter:image" content="{{ site.baseurl }}/assets/img/ogImage.png" />
 <meta property="og:description" content="{{ site.description }}" />
