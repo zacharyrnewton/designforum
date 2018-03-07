@@ -4,7 +4,8 @@ email: designforumus@gmail.com
 description: We represent a community of professionals and students that are dedicated to pursuing excellence and integrity in design.
 mission: We represent a community of professionals and students that are dedicated to pursuing excellence and integrity in design.
 baseurl: ""
-url: "http://designforum.us"
+url: "https://designforum.us"
+enforce_ssl: designforum.us
 
 # Social accounts
 instagram_username: DesignForumUS
