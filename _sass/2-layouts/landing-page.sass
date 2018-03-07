@@ -1,0 +1,90 @@
+.landingPageWrapper
+  display: flex
+  flex-direction: row-reverse
+  justify-content: center
+  align-items: center
+  transition: all 0.15s cubic-bezier(.19,.86,.56,.99)
+  .main, .side
+    display: flex
+    flex-direction: row
+    justify-content: flex-start
+    align-items: center
+    width: 50vw
+    height: 100vh
+    transition: inherit
+    .landingPageImage
+      width: 510px
+      height: 510px
+      margin: 0 0 0 -30px
+      background: $base
+        image: url("../img/hero.jpg")
+        size: cover
+        position: center center
+        repeat: no-repeat
+      border-radius: 2px
+      transition: inherit
+    .landingPageMainContentWrapper
+      width: 100%
+      height: auto
+      max-width: 425px
+      padding: 0 30px
+      transition: inherit
+      h4
+        opacity: 0.75
+        margin: 10px 0
+        color: $base
+        font-size: 1.25rem
+        font-weight: 400
+        line-height: 1.5rem
+        letter-spacing: -0.01rem
+      hr
+        display: inline-block
+        border: none
+        height: 1px
+        width: 50px
+        background: $base
+      ul.landingPageSocialMediaLinks
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        align-items: center
+        height: 30px
+        width: 110px
+        margin: 30px 0 35px 0
+        padding: 0
+        li
+          list-style: none
+          width: 30px
+          height: 30px
+          a
+            display: flex
+            flex-direction: row
+            justify-content: center
+            align-items: center
+            font-size: 1.75rem
+            color: $base
+            width: 100%
+            height: 100%
+            transition: all 0.1s ease-in-out
+            &:hover
+              opacity: 0.5
+
+@media screen and(max-width: 900px)
+  .landingPageWrapper
+    .main
+      width: 70vw
+    .side
+      width: 30vw
+
+@media screen and(max-width: 700px)
+  .landingPageWrapper
+    .main
+      .landingPageMainContentWrapper
+        padding: 0 1rem
+
+@media screen and(max-width: 475px)
+  .landingPageWrapper
+    .main
+      width: 100%
+    .side
+      width: 0

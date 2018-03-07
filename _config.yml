@@ -1,0 +1,26 @@
+# Site
+title: Design Forum
+email: designforumus@gmail.com
+description: We represent a community of professionals and students that are dedicated to pursuing excellence and integrity in design.
+mission: We represent a community of professionals and students that are dedicated to pursuing excellence and integrity in design.
+baseurl: ""
+url: "http://designforum.us"
+
+# Social accounts
+instagram_username: DesignForumUS
+twitter_username: DesignForumUS
+facebook_username: DesignForumUS
+
+instagram_url: https://www.instagram.com/designforumus/
+twitter_url: https://twitter.com/designforumus/
+facebook_url: https://www.facebook.com/Designforumus/
+
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-autoprefixer
+sass:
+  sass_dir: _sass
+  style: compressed
