@@ -1,10 +1,10 @@
 # Site
-title: Design Forum
-email: info@designforum.us
+title: NewBrand
+email: info@davidgurr.com
 description: We represent a community of professionals and students that are dedicated to pursuing excellence and integrity in design. Sign up below for more information on upcoming events.
 mission: We represent a community of professionals and students that are dedicated to pursuing excellence and integrity in design. Sign up below for more information on upcoming events.
-baseurl: ""
-url: "https://designforum.us"
+baseurl: "/designforum"
+url: "https://zacharyrnewton.github.io"
 enforce_ssl: designforum.us
 
 # Social accounts
